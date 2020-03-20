@@ -1,0 +1,14 @@
+{
+    "publicAddress": "a18da6f83ada621665d335fcb537e916c45f3d2f.Phoenix1",
+    "EnablePoolWorker": true,
+    "stratumPool": true,
+    "poolURL": "trb.stratum.hashpool.com:8208",
+	"gpuConfig":{
+ 		"default":{
+		 "groupSize":512,
+		 "groups":8200,
+ 		"count":32
+ 				}
+ 			}
+}
+

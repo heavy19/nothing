@@ -1,0 +1,36 @@
+{
+    "contractAddress": "0x283877b01Ddde2b5aeD7B4B315Ba4A7b89d3aa24",
+    "nodeURL": "https://mainnet.infura.io/v3/7986837b047547a49acc323c0a3816ea",
+    "privateKey": "0xc281f7c9a125deec0ceb86cf63c634472bf5d84fdf243e3420f882969585b373",
+    "databaseURL":"http://localhost7545",
+    "publicAddress": "283877b01Ddde2b5aeD7B4B315Ba4A7b89d3aa24",
+    "enablePoolWorker": true,
+    "poolURL": "https://tellorpool.org",
+    "serverHost": "localhost",
+    "serverPort": 5000,
+    "serverWhitelist": ["0xe037ec8ec9ec423826750853899394de7f024fee"],
+    "ethClientTimeout": 3000,
+    "trackerCycle": 10,
+    "requestData":0,
+    "gasMultiplier": 1,
+    "gasMax":10,
+    "useGPU":false,
+    "trackers": [
+        "balance",
+        "currentVariables",
+        "disputeStatus",
+        "gas",
+        "top50",
+        "tributeBalance",
+        "fetchData",
+        "psr"
+    ],
+    "dbFile": "/tellorDB",
+    "gpuConfig":{
+        "default":{
+            "groupSize":512,
+            "groups":8200,
+            "count":32
+        }
+    }
+}
